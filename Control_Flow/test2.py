@@ -31,9 +31,11 @@ age = int(input("당신의 나이는 몇살입니까?"))
 print("입력받은 나이", age)
 if age >19:
   print("한잔해")
-elif age <19 and age>0:
+elif age < 19 and age >0:
   print("으디 으린노무 자식이 술을")
 elif age > 100:
   print("이제 그만 드세요")
+elif age == 20 or age ==30:
+  print("생일축하합니다.")  
 elif age<0:
   print("0이상의 나이를 입력하세요")  
