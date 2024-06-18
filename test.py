@@ -29,3 +29,7 @@ my_name()
 double_func()
 cal(a,b)
 cal2(a,b)
+
+
+#def 를 통한 function을 정의, Java와 차이점은 {}가 들어가지 않고 : 와 띄어쓰기 두칸으로 정의
+#매개변수값을 호출시에 넣어주고 전역변수를 호출 or 지역변수를 선언 후 선언 가능
