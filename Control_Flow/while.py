@@ -14,7 +14,7 @@ pc_choice = randint(1,30)
 #정답이 맞을 시 False값으로 while문 종료
 playing = True
 while playing:
-  user_choice = int(input("번호를 입력해주세요"))
+  user_choice = int(input("번호를 입력해주세요 (1-30)"))
   if user_choice == pc_choice:
     print("정답입니다. 축하드립니다.")
     playing = False
