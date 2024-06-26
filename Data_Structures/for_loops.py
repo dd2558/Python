@@ -45,4 +45,5 @@ for website in websites:
 for website in websites:
   if not website.startswith("https://"):
     website = f"https://{website}"
-  print("최종 URL",website)    
+  print("최종 URL",website)
+print("URL =" ,website)      
